@@ -1,0 +1,8 @@
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /hotels/:cityID           --> main.getData.func1 (3 handlers)
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+::1 - [28 Jun 21 01:47 IST] GET /hotels/5604282523447316015?type=Hotel 200 310.817848ms 

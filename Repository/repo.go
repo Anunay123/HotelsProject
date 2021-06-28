@@ -1,7 +1,7 @@
 package Repository
 
 import (
-	"awesomeProject/Cache"
+	"HotelsProject/Cache"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

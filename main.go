@@ -1,9 +1,9 @@
 package main
 
 import (
-	"awesomeProject/Cache"
-	middlewares "awesomeProject/MiddleWares"
-	"awesomeProject/Repository"
+	"HotelsProject/Cache"
+	middlewares "HotelsProject/MiddleWares"
+	"HotelsProject/Repository"
 	"github.com/gin-gonic/gin"
 	"io"
 	"os"

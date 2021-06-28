@@ -1,4 +1,4 @@
-module awesomeProject
+module HotelsProject
 
 go 1.14
 

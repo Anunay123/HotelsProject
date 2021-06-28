@@ -5,4 +5,4 @@
 [GIN-debug] GET    /hotels/:cityID           --> main.getData.func1 (3 handlers)
 [GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
 [GIN-debug] Listening and serving HTTP on :8080
-::1 - [28 Jun 21 01:47 IST] GET /hotels/5604282523447316015?type=Hotel 200 310.817848ms 
+::1 - [28 Jun 21 11:14 IST] GET /hotels/5604282523447316015?type=Hotel 200 1.292544492s 

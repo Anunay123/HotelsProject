@@ -2,7 +2,8 @@
  - using env:	export GIN_MODE=release
  - using code:	gin.SetMode(gin.ReleaseMode)
 
-[GIN-debug] GET    /hotels/:cityID           --> main.getData.func1 (3 handlers)
+[GIN-debug] GET    /hotels/:cityID           --> HotelsProject/Controller.GetData.func1 (3 handlers)
 [GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
 [GIN-debug] Listening and serving HTTP on :8080
-::1 - [28 Jun 21 11:14 IST] GET /hotels/5604282523447316015?type=Hotel 200 1.292544492s 
+::1 - [29 Jun 21 17:58 IST] GET /hotels/2443319030692231630 200 311.840514ms 
+::1 - [29 Jun 21 17:58 IST] GET /hotels/2443319030692231630 200 94.548µs 

@@ -1,0 +1,635 @@
+{
+ "HotelsData": {
+  "1106661665950128319": {
+   "Id": "1106661665950128319",
+   "Name": "Viz Park Hotel",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "1216781740909495730": {
+   "Id": "1216781740909495730",
+   "Name": "OYO 29381 Motel Bapa's",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "1503001156010386302": {
+   "Id": "1503001156010386302",
+   "Name": "Hotel Krishna Palace",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "POOL": "Swimming Pool"
+   }
+  },
+  "1729381593752670932": {
+   "Id": "1729381593752670932",
+   "Name": "Hotel Decent",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "1837588016710161221": {
+   "Id": "1837588016710161221",
+   "Name": "HOTEL RADHA KRISHNA",
+   "HotelPropertyTag": "10",
+   "Rating": 5,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "2137250136787798295": {
+   "Id": "2137250136787798295",
+   "Name": "Hotel Royal inn",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "233000993082328438": {
+   "Id": "233000993082328438",
+   "Name": "motal sanvaria regency",
+   "HotelPropertyTag": "103",
+   "Rating": 1,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "2334453350417224375": {
+   "Id": "2334453350417224375",
+   "Name": "HOTEL RAMA RESIDENCY",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool"
+   }
+  },
+  "236915091367029534": {
+   "Id": "236915091367029534",
+   "Name": "Krishna Riverside Resort",
+   "HotelPropertyTag": "11",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "2579389663527307749": {
+   "Id": "2579389663527307749",
+   "Name": "Laksh Residency",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "287665517768765864": {
+   "Id": "287665517768765864",
+   "Name": "Hotel Opulence",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "POOL": "Swimming Pool",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "3427173644858152119": {
+   "Id": "3427173644858152119",
+   "Name": "The Grand Hotel",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "3999086099830666168": {
+   "Id": "3999086099830666168",
+   "Name": "Adarsh Resort",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "4054397499293150710": {
+   "Id": "4054397499293150710",
+   "Name": "Hotel Neelkamal",
+   "HotelPropertyTag": "10",
+   "Rating": 2,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "4097791115413117192": {
+   "Id": "4097791115413117192",
+   "Name": "Hotel La Casa Inn",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "4161235941114753274": {
+   "Id": "4161235941114753274",
+   "Name": "Hotel Sach Regency",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "4213193776929583986": {
+   "Id": "4213193776929583986",
+   "Name": "Hotel Kavita",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "4499642022862977614": {
+   "Id": "4499642022862977614",
+   "Name": "OYO 76205 Hotel New Relax",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "4981827469215695153": {
+   "Id": "4981827469215695153",
+   "Name": "Hotel H",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5083268689840266899": {
+   "Id": "5083268689840266899",
+   "Name": "Savshanti Resort",
+   "HotelPropertyTag": "11",
+   "Rating": 2,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5240184641384074901": {
+   "Id": "5240184641384074901",
+   "Name": "AdenDip Inn",
+   "HotelPropertyTag": "103",
+   "Rating": 0,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "BTHRM": "Bathroom",
+    "CCTVSUR": "CCTV surveillance",
+    "ELVTR": "Elevator/ Lift",
+    "FDESK": "Front desk",
+    "GNRLSVC": "General Services",
+    "HKPNG": "Daily housekeeping",
+    "INTRNT": "Internet",
+    "LNDRY": "Laundry Service",
+    "MDIATECH": "Media and technology",
+    "PRKG": "Parking Facility",
+    "RMSVC": "Room Service",
+    "SFTYSEC": "Safety \u0026 security",
+    "VHCLRENT": "Vehicle Rentals"
+   }
+  },
+  "5240560244295039692": {
+   "Id": "5240560244295039692",
+   "Name": "Hotel Silver Oak",
+   "HotelPropertyTag": "10",
+   "Rating": 1,
+   "Amenities": {
+    "HKPNG": "Daily housekeeping",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5428217017431016812": {
+   "Id": "5428217017431016812",
+   "Name": "NILKANTH RESORTS",
+   "HotelPropertyTag": "11",
+   "Rating": 1,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5450067466471579179": {
+   "Id": "5450067466471579179",
+   "Name": "Hotel Grand Nakshatra",
+   "HotelPropertyTag": "10",
+   "Rating": 2,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "5549511636349943415": {
+   "Id": "5549511636349943415",
+   "Name": "Neonz Resort and Club",
+   "HotelPropertyTag": "10",
+   "Rating": 5,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "HKPNG": "Daily housekeeping",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RMSVC": "Room Service",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "5578044566997793223": {
+   "Id": "5578044566997793223",
+   "Name": "Hummingbird Hotel \u0026 Banquet",
+   "HotelPropertyTag": "10",
+   "Rating": 4,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5814447013667493152": {
+   "Id": "5814447013667493152",
+   "Name": "Hotel Shyam Regency",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "5988706385978931212": {
+   "Id": "5988706385978931212",
+   "Name": "hotel aashiyana",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "6091015806566232418": {
+   "Id": "6091015806566232418",
+   "Name": "Collection O 76586 Hotel Greenwood",
+   "HotelPropertyTag": "10",
+   "Rating": 4,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "6227514355354676474": {
+   "Id": "6227514355354676474",
+   "Name": "Hotel Radhe",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "626868275431974115": {
+   "Id": "626868275431974115",
+   "Name": "OYO 37477 D K Guest House",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "6683023721690922556": {
+   "Id": "6683023721690922556",
+   "Name": "Hotel Rest \u0026 Ride",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "6945566513369719014": {
+   "Id": "6945566513369719014",
+   "Name": "Madhubhan Resort and Spa",
+   "HotelPropertyTag": "11",
+   "Rating": 5,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RMSVC": "Room Service",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "696874477585051210": {
+   "Id": "696874477585051210",
+   "Name": "Pride Biznotel - The Maison",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RMSVC": "Room Service",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "76326018752393822": {
+   "Id": "76326018752393822",
+   "Name": "OYO 29432 Motel Sanvaria",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "794248228786265084": {
+   "Id": "794248228786265084",
+   "Name": "Patel Boarding House",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool"
+   }
+  },
+  "811988692657103700": {
+   "Id": "811988692657103700",
+   "Name": "Hotel Anand Corner",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "8123262164372128542": {
+   "Id": "8123262164372128542",
+   "Name": "Hotel Aaram",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility"
+   }
+  },
+  "8180902945033106434": {
+   "Id": "8180902945033106434",
+   "Name": "HOTEL DARSHAN INN",
+   "HotelPropertyTag": "11",
+   "Rating": 0,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "8213402104767364795": {
+   "Id": "8213402104767364795",
+   "Name": "Hotel Arizona Inn",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "INTRNT": "Internet",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "8368518814112305774": {
+   "Id": "8368518814112305774",
+   "Name": "Hotel Surabhi Regency",
+   "HotelPropertyTag": "10",
+   "Rating": 3,
+   "Amenities": {
+    "AC": "Air Conditioning",
+    "BSCFC": "Basic Facilities",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "SANIT": "Sanitizers"
+   }
+  },
+  "8703105148478948941": {
+   "Id": "8703105148478948941",
+   "Name": "HOTEL TGS",
+   "HotelPropertyTag": "103",
+   "Rating": 0,
+   "Amenities": {
+    "KITCHEN": "Kitchen"
+   }
+  },
+  "8927336454314615718": {
+   "Id": "8927336454314615718",
+   "Name": "Hotel Amber",
+   "HotelPropertyTag": "10",
+   "Rating": 0,
+   "Amenities": {
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop"
+   }
+  },
+  "9037548733770708791": {
+   "Id": "9037548733770708791",
+   "Name": "Motel Happy Home",
+   "HotelPropertyTag": "106",
+   "Rating": 0,
+   "Amenities": {
+    "BSCFC": "Basic Facilities",
+    "HKPNG": "Daily housekeeping",
+    "KITCHEN": "Kitchen",
+    "LNDRY": "Laundry Service",
+    "POOL": "Swimming Pool",
+    "PRKG": "Parking Facility",
+    "RSTRNT": "Restaurant/Coffee Shop",
+    "SANIT": "Sanitizers"
+   }
+  }
+ }
+}

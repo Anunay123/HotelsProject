@@ -1,11 +1,12 @@
-package Repository
+package Services
 
 import (
-	"HotelsProject/Cache"
+	"HotelsProject/Utils"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"os"
 )
 
 type Hotel struct {
@@ -378,23 +379,64 @@ type HotelDataNode struct {
 	} `json:"desc"`
 }
 
-type ProcessedData struct {
-	cityID string
-	HotelsData map[string]HotelNode
-}
 
-type HotelNode struct {
-	Id           string
-	Name         string
-	HotelPropertyTag string
-	Rating       float64
-	Amenities  map[string]string
-}
 
 var AmenitiesMapping = make(map[string]string)
 var PropertyTagsMapping  = make(map[string]string)
 
-func PopulateData(cityId string, pd *ProcessedData) {
+func init()  {
+	jsonFile1, err1 := os.Open("amenities_map.json")
+
+	if err1 != nil {
+		panic(err1)
+	}
+
+	defer func(jsonFile1 *os.File) {
+		err := jsonFile1.Close()
+		if err != nil {
+			panic(err)
+		}
+	}(jsonFile1)
+
+
+	byteValue1, _ := ioutil.ReadAll(jsonFile1)
+
+	errr := json.Unmarshal(byteValue1, &AmenitiesMapping)
+
+	if errr != nil {
+		panic(errr)
+	}
+
+	//fmt.Println(AmenitiesMapping)
+
+	jsonFile2, err2 := os.Open("type_mapping.json")
+
+	if err2 != nil {
+		panic(err2)
+	}
+
+	defer func(jsonFile2 *os.File) {
+		err := jsonFile2.Close()
+		if err != nil {
+			panic(err)
+		}
+	}(jsonFile2)
+
+
+	byteValue2, _ := ioutil.ReadAll(jsonFile2)
+
+	errr2 := json.Unmarshal(byteValue2, &PropertyTagsMapping)
+
+	if errr2 != nil {
+		panic(errr2)
+	}
+
+	fmt.Println(PropertyTagsMapping)
+
+
+}
+
+func PopulateData(cityId string, pd *Utils.ProcessedData) {
 
 	url := "https://voyager.goibibo.com/api/v1/hotels/get_hotels_data_by_city/?params={\"city_id\":" + "\"" + cityId + "\"" + "," + "\"mode\":\"search_page_extended_v2\"}"
 	res, err := http.Get(url)
@@ -407,34 +449,34 @@ func PopulateData(cityId string, pd *ProcessedData) {
 
 	var hotel Hotel
 
-
 	errr := json.Unmarshal(data, &hotel)
-
 
 	if errr != nil {
 		fmt.Println("error 2", errr)
 	}
 
+	//if _, found := Cache.Get("amenities"); !found {
+	//	for key, value := range hotel.Data.Meta.AmenitiesData {
+	//		//fmt.Println(value.Dn, key)
+	//		AmenitiesMapping[value.Dn] = key
+	//	}
+	//
+	////	writeToFile(AmenitiesMapping, "amenities_map.json")
+	//
+	//	Cache.Set("amenities", AmenitiesMapping)
+	//}
+	//
+	//if _, found := Cache.Get("propertyTypes"); !found {
+	//	for key, value := range hotel.Data.Meta.PropertyTypesData {
+	//		PropertyTagsMapping[value.Txt] = key
+	//	}
+	//
+	////	writeToFile(PropertyTagsMapping, "type_mapping.json")
+	//	Cache.Set("propertyTypes", PropertyTagsMapping)
+	//}
 
-	if _, found := Cache.Get("amenities"); !found {
-		for key, value := range hotel.Data.Meta.AmenitiesData {
-			//fmt.Println(value.Dn, key)
-			AmenitiesMapping[value.Dn] = key
-		}
-
-		Cache.Set("amenities", AmenitiesMapping)
-	}
-
-	if _, found := Cache.Get("propertyTypes"); !found {
-		for key, value := range hotel.Data.Meta.PropertyTypesData {
-			PropertyTagsMapping[value.Txt] = key
-		}
-
-		Cache.Set("propertyTypes", PropertyTagsMapping)
-	}
-
-	pd.cityID = cityId
-	pd.HotelsData = make(map[string]HotelNode)
+	pd.CityID = cityId
+	pd.HotelsData = make(map[string]Utils.HotelNode)
 
 	for key, value := range hotel.Data.HotelsData {
 		var amenities = make(map[string]string)
@@ -443,8 +485,8 @@ func PopulateData(cityId string, pd *ProcessedData) {
 			amenities[key2] = value2.Dn
 		}
 
-		var temp HotelNode
-		temp = HotelNode{
+		var temp Utils.HotelNode
+		temp = Utils.HotelNode{
 			Id:               value.HotelNodeData.Id,
 			Name:             value.HotelNodeData.Name,
 			HotelPropertyTag: value.HotelNodeData.HotelPropertyTag,
@@ -455,11 +497,14 @@ func PopulateData(cityId string, pd *ProcessedData) {
 		pd.HotelsData[key] = temp
 	}
 
-
-
-
-
 }
+
+//func writeToFile(pd interface{}, fileName string)  {
+//	file, _ := json.MarshalIndent(pd, "", " ")
+//
+//	_ = ioutil.WriteFile(fileName, file, 0644)
+//
+//}
 
 
 
